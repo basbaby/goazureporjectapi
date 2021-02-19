@@ -29,7 +29,7 @@ steps:
 - task: Docker@2
   displayName: "Build & Push Docker Image"
   inputs:
-    containerRegistry: 'goazureporjectapiDockerServiceConnection1'
+    containerRegistry: 'newewewewew'
     repository: '$(imageRepository)'
     command: 'buildAndPush'
     Dockerfile: 'Dockerfile'
